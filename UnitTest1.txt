@@ -1,0 +1,15 @@
+UnitTest1.cs undernamespace NUnitTestPrjt
+{
+ public class Tests
+ {
+ [SetUp]
+ public void Setup()
+ {
+ }
+ [Test]
+ public void Test1()
+ {
+ Assert.Pass();
+ }
+ }
+}
